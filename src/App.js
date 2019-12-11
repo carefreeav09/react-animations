@@ -1,7 +1,6 @@
 import React from 'react';
 import {TimelineMax, Power4} from "gsap";
 import './App.css';
-import styled from "styled-components";
 
 function App() {
     let c = '#expandButton';
@@ -14,7 +13,7 @@ function App() {
     const handleAnimationExpand = () => {
         timeline
             .set(`${c}`, {className: '+=btn expanded'})
-            .set(`${d}`, {className: '+= mt-4 expanded'})
+            .set(`${d}`, {className: '+= mt-5 expanded'})
             .from(`${c}`, 0, { y: 0})
             .to(`${c}`, 1, { width: '300px', ease: Power4.easeIn})
             .to(`${d}`, 0, {display: 'block'})
@@ -29,16 +28,12 @@ function App() {
 
     const handleAnimationClose = () => {
         timeline
-            .set(`${c}`, {className: '-=btn expanded'})
-            .set(`${d}`, {className: '-=mt-4 expanded'})
-            .to(`${d}`, 2 , {height: '100px', ease: Power4.easeInOut})
-            .to(`${d}`, 1, {opacity: 0, ease: Power4.easeInOut, delay: '-2s'} )
+            .set(`${c}`, {className: '-=btn'})
+            .set(`${d}`, {className: '-=mt-5'})
+            .to(`${d}`, 2 , {height: '0', ease: Power4.easeInOut, opacity: 0})
+            .to(`${c}`, 1, { width: '80px', ease: Power4.easeInOut, delay: '-0.5'})
+            .to(`${c}`, 1, { yPercent: 0, ease: Power4.easeInOut, delay: '-1'})
             .to(`${d}`, 0, {display: 'none'})
-            .to(`${c}`, 1, { width: '80px', ease: Power4.easeIn, delay: '-1s'})
-
-
-
-
     }
 
   return (
