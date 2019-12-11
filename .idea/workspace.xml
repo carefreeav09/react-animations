@@ -4,7 +4,10 @@
     <list default="true" id="25678909-266a-442c-9eae-1160a8a847f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/react-animations.time" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/react-animations.time" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576041464518</updated>
       <workItem from="1576041465980" duration="6849000" />
+      <workItem from="1576064750397" duration="1925000" />
     </task>
     <servers />
   </component>
@@ -59,7 +63,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
