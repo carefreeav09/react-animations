@@ -57,3 +57,14 @@
     transform: rotate(360deg);
   }
 }
+
+#secondText {
+  opacity: 0;
+  width: 0;
+  transition: 1s linear;
+}
+
+.show-me {
+  opacity: 1 !important;
+  width: 100% !important;
+}
